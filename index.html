@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>키보드연습</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- 폰트 -->
+    <script
+      src="https://kit.fontawesome.com/3882d493de.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="keyboard">
+      <div class="row-1">
+        <div class="div" id="icon">`</div>
+        <div class="div" id="1">1</div>
+        <div class="div" id="2">2</div>
+        <div class="div" id="3">3</div>
+        <div class="div" id="4">4</div>
+        <div class="div" id="5">5</div>
+        <div class="div" id="6">6</div>
+        <div class="div" id="7">7</div>
+        <div class="div" id="8">8</div>
+        <div class="div" id="9">9</div>
+        <div class="div" id="0">0</div>
+        <div class="div" id="-">-</div>
+        <div class="div" id="+">+</div>
+        <div class="div" id="back">
+          <i class="fa-sharp fa-solid fa-arrow-left"></i>
+        </div>
+      </div>
+      <div class="row-2">
+        <div class="div" id="tab">tab</div>
+        <div class="div" id="Q">Q</div>
+        <div class="div" id="W">W</div>
+        <div class="div" id="E">E</div>
+        <div class="div" id="R">R</div>
+        <div class="div" id="T">T</div>
+        <div class="div" id="Y">Y</div>
+        <div class="div" id="U">U</div>
+        <div class="div" id="I">I</div>
+        <div class="div" id="O">O</div>
+        <div class="div" id="P">P</div>
+        <div class="div" id="{">{</div>
+        <div class="div" id="}">}</div>
+        <div class="div" id="\">\</div>
+      </div>
+      <div class="row-3">
+        <div class="div" id="LOCK">Lock</div>
+        <div class="div" id="A">A</div>
+        <div class="div" id="S">S</div>
+        <div class="div" id="D">D</div>
+        <div class="div" id="F">F</div>
+        <div class="div" id="G">G</div>
+        <div class="div" id="H">H</div>
+        <div class="div" id="J">J</div>
+        <div class="div" id="K">K</div>
+        <div class="div" id="L">L</div>
+        <div class="div" id=";">;</div>
+        <div class="div" id="'">"</div>
+        <div class="div" id="Enter">Enter</div>
+      </div>
+      <div class="row-4">
+        <div class="div" id="Shift">Shift</div>
+        <div class="div" id="Z">Z</div>
+        <div class="div" id="X">X</div>
+        <div class="div" id="C">C</div>
+        <div class="div" id="V">V</div>
+        <div class="div" id="B">B</div>
+        <div class="div" id="N">N</div>
+        <div class="div" id="M">M</div>
+        <div class="div" id=",">,</div>
+        <div class="div" id=".">.</div>
+        <div class="div" id="?/">?/</div>
+        <div class="div" id="Shift">Shift</div>
+      </div>
+      <div class="row-5">
+        <div class="div" id="Ctrl">Ctrl</div>
+        <div class="div" id="Win">Win</div>
+        <div class="div" id="한자">한자</div>
+        <div class="div" id="Space"></div>
+        <div class="div" id="한/영">한/영</div>
+        <div class="div" id="Alt">Alt</div>
+        <div class="div" id="Win">Win</div>
+        <div class="div" id="icon"></div>
+        <div class="div" id="Ctrl">Ctrl</div>
+      </div>
+    </div>
+    <div class="input-wrap">
+      <input id="name" onkeyup="printName()" placeholder="입력해주세요" />
+      <div id="result"></div>
+    </div>
+  </body>
+</html>
